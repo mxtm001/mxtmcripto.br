@@ -255,7 +255,7 @@ export default function WithdrawPage() {
   }, [router])
 
   // Preview balance only; no real funds are moved.
-  const balance = 3_000_000
+  const balance = 3_000_079.71
 
   const handlePixKeyChange = (value: string) => {
     setPixDetails((current) => ({ ...current, pixKey: value }))
