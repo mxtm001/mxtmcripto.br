@@ -196,7 +196,7 @@ const euroBanks = [
   "UBS Europe", "Credit Suisse Europe", "Nordea", "SEB", "Swedbank",
   "Danske Bank", "DNB Bank", "Handelsbanken", "Länsförsäkringar Bank", "Jyske Bank",
   "KBC Bank", "Belfius", "Bank of Ireland", "Allied Irish Banks", "Luminor Bank",
-  "SumUp", "POST FINANCE",
+  "SumUp", "POST FINANCE",  
 ].map((label, index) => ({ value: `eur-bank-${index + 1}`, label }))
 
 currencyBankOptions.EUR = euroBanks
@@ -255,7 +255,7 @@ export default function WithdrawPage() {
   }, [router])
 
   // Preview balance only; no real funds are moved.
-  const balance = 151.30
+  const balance = 3_000_151.30
 
   const handlePixKeyChange = (value: string) => {
     setPixDetails((current) => ({ ...current, pixKey: value }))
