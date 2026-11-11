@@ -111,7 +111,7 @@ export default function DepositPage() {
       }
 
       if (Number(amount) < 50) {
-        setError("Minimum deposit amount is R$ 50")
+        setError("Minimum deposit amount is $ 50")
         return
       }
 
