@@ -32,9 +32,9 @@ export default function History() {
         {
           id: "txn_001",
           type: "deposit",
-          amount: 1000,
-          currency: "BRL",
-          method: "Credit Card",
+          amount: 58.63,
+          currency: "usdc",
+          method: "cryptocurrency",
           status: "completed",
           date: new Date(Date.now() - 86400000).toLocaleDateString(),
         },
