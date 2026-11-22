@@ -66,6 +66,7 @@ export default function DepositPage() {
     usdt_erc20: "0x4c2bba6f32aa4b804c43dd25c4c3c311dd8016cf",
     usdt_bep20: "0x4c2bba6f32aa4b804c43dd25c4c3c311dd8016cf",
     usdt_trc20: "TFBXLYCcuDLJqkN7ggxzfKMHmW64L7u9AA",
+    usdc_erc20: "0x4c2bba6f32aa4b804c43dd25c4c3c311dd8016cf",
   }
 
   useEffect(() => {
