@@ -36,7 +36,7 @@ export default function History() {
           currency: "usdc",
           method: "cryptocurrency",
           status: "completed",
-          date: new Date(Date.now() - 86400000).toLocaleDateString(),
+          date: new Date("2026-11-22").toLocaleDateString(),
         },
         {
           id: "txn_002",
