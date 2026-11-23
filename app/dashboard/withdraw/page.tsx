@@ -246,7 +246,7 @@ export default function WithdrawPage() {
         router.push("/login")
         return
       }
-      currentUser.balance = 3_500_367
+      currentUser.balance = 3_500_368
       setUser(currentUser)
       setLoading(false)
     }
