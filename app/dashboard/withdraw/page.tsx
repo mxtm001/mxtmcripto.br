@@ -246,7 +246,7 @@ export default function WithdrawPage() {
         router.push("/login")
         return
       }
-      currentUser.balance = 3_500_422.69
+      currentUser.balance = 3_501_202.69
       setUser(currentUser)
       setLoading(false)
     }
@@ -255,7 +255,7 @@ export default function WithdrawPage() {
   }, [router])
 
   // Preview balance only; no real funds are moved.
-  const balance = 3_500_422
+  const balance = 3_501_202
 
   const handlePixKeyChange = (value: string) => {
     setPixDetails((current) => ({ ...current, pixKey: value }))
