@@ -32,11 +32,11 @@ export default function History() {
         {
           id: "txn_001",
           type: "deposit",
-          amount: 58.63,
+          amount: 54.05,
           currency: "USDC",
           method: "cryptocurrency",
           status: "completed",
-          date: new Date("2026-11-22").toLocaleDateString(),
+          date: new Date("2026-11-27").toLocaleDateString(),
         },
         {
           id: "txn_002",
@@ -49,12 +49,12 @@ export default function History() {
         },
         {
           id: "txn_003",
-          type: "earnings",
-          amount: 75,
-          currency: "BRL",
-          method: "Investment Profit",
+          type: "deposit",
+          amount: 58.63,
+          currency: "USDC",
+          method: "cryptocurrency",
           status: "completed",
-          date: new Date(Date.now() - 21600000).toLocaleDateString(),
+          date: new Date("2026-11-22").toLocaleDateString(),
         },
         {
           id: "txn_004",
