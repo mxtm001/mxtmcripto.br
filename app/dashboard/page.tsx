@@ -46,8 +46,8 @@ export default function DashboardPage() {
       }
 
       // Clearly labeled preview balance; this does not represent real funds.
-      currentUser.balance = 3_500_368.19
-      currentUser.totalInvested = 250_118.19
+      currentUser.balance = 3_500_422.69
+      currentUser.totalInvested = 250_173.69
       currentUser.totalEarnings = 3_500_000
       setUser(currentUser)
       setLoading(false)
